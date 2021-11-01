@@ -93,7 +93,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🔱More Movies', url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton('🔱More Movies', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -228,4 +228,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/joinchat/FYBCIcMfr0AyOTFl'>Click here</a>\nUpdate Channel : <a href='https://t.me/tg_bots_updates'>ALPH_BOTZ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/joinchat/FYBCIcMfr0AyOTFl'>Click here</a>\nUpdate Channel : <a href='https://t.me/joinchat/FYBCIcMfr0AyOTFl'>ALPH_BOTZ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
