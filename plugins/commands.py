@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
+    "https://telegra.ph/file/b646a5b4e63f2f5c74df8.jpg",
 
 ]
 
@@ -57,7 +57,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/tg_bots_updates')
+                                InlineKeyboardButton("🏅 Join Updates Channel", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -93,7 +93,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton('🔱More Movies', url='https://t.me/tg_bots_updates')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -112,7 +112,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton("🔖 Join Updates Channel", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                 ]
             )
@@ -124,18 +124,18 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://github.com/Lallu-lallus/ALPHA_IMDB_BOT"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/oGgao285rtBhNmM9"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("1 Dev", url="https://t.me/joinchat/Hn3YHLdbQf04MmM1"),
-                        InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
+                        InlineKeyboardButton("1 Dev", url="https://t.me/joinchat/oGgao285rtBhNmM9"),
+                        InlineKeyboardButton("2 Dev", url="https://t.me/joinchat/oGgao285rtBhNmM9")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton("🏅 Join now 🏅", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
                     ]
                 ]
             )
@@ -224,8 +224,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/tg_bots_updates'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Lallu-lallus/ALPHA-AUTO-FILTER-BOT')
+            InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl'),
+            InlineKeyboardButton('Source Code', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Lallu-lallus/ALPHA-AUTO-FILTER-BOT'>Click here</a>\nUpdate Channel : <a href='https://t.me/tg_bots_updates'>ALPH_BOTZ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/joinchat/FYBCIcMfr0AyOTFl'>Click here</a>\nUpdate Channel : <a href='https://t.me/tg_bots_updates'>ALPH_BOTZ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
