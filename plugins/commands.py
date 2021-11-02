@@ -15,7 +15,9 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/b646a5b4e63f2f5c74df8.jpg",
+    "https://telegra.ph/file/cae27d5cdb703470bd221.jpg
+    https://telegra.ph/file/9927aa5dd36b81dd41050.jpg",
+    
 
 ]
 
@@ -57,7 +59,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🏅 Join Updates Channel", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+                                InlineKeyboardButton("🏅 Join Updates Channel 🏅", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -92,8 +94,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🔱More Movies', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+                        InlineKeyboardButton('🔖 Join now 🔖', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl'),
+                        InlineKeyboardButton('🔖 More Movies 🔖', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -112,7 +114,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔖 Join Updates Channel", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+                        InlineKeyboardButton("🏅 Join Updates Channel 🏅", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                 ]
             )
@@ -124,7 +126,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
+                        InlineKeyboardButton("⭕️ Join Now ⭕️", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
                     ],
                     [
                         InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/oGgao285rtBhNmM9"),
