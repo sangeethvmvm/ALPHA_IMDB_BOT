@@ -15,8 +15,8 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/cae27d5cdb703470bd221.jpg
-    https://telegra.ph/file/9927aa5dd36b81dd41050.jpg",
+    "https://telegra.ph/file/cae27d5cdb703470bd221.jpg,
+    https://telegra.ph/file/9927aa5dd36b81dd41050.jpg"
     
 
 ]
@@ -133,8 +133,8 @@ async def start(bot, cmd):
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("1 Dev", url="https://t.me/joinchat/oGgao285rtBhNmM9"),
-                        InlineKeyboardButton("2 Dev", url="https://t.me/joinchat/oGgao285rtBhNmM9")
+                        InlineKeyboardButton("1 Dev", url="https://t.me/DARKWEBLOAD"),
+                        InlineKeyboardButton("2 Dev", url="https://t.me/DARKWEBLOAD")
                     ],
                     [
                         InlineKeyboardButton("🏅 Join now 🏅", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
