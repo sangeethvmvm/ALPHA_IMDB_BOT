@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
+    "https://telegra.ph/file/5b433b97c0511e2153967.jpg",
 
 ]
 
@@ -57,7 +57,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/tg_bots_updates')
+                                InlineKeyboardButton("🏅 JOIN UPDATES 🏅", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -92,8 +92,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton('🔍Search again🔎', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl'),
+                        InlineKeyboardButton('⭕️ 𝑱𝑶𝑰𝑵 𝑵𝑶𝑾 ⭕️', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -112,7 +112,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton("🏅 JOIN UPDATES 🏅", url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                 ]
             )
@@ -127,15 +127,15 @@ async def start(bot, cmd):
                         InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://github.com/Lallu-lallus/ALPHA_IMDB_BOT"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/oGgao285rtBhNmM9"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("1 Dev", url="https://t.me/joinchat/Hn3YHLdbQf04MmM1"),
-                        InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
+                        InlineKeyboardButton("1 Dev", url="https://t.me/DARKWEBLOAD"),
+                        InlineKeyboardButton("2 Dev", url="https://t.me/EVER4446")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton("🔖 JOIN FAST 🔖", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
                     ]
                 ]
             )
